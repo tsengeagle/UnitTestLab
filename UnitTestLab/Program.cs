@@ -11,10 +11,17 @@ using NSubstitute;
 
 namespace UnitTestLab
 {
-    class Program
+    public  class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello world!");
+        }
+
+        [TestMethod]
+        public void MyTestMethod()
+        {
+            Assert.IsTrue(true);
         }
     }
 
